@@ -1,3 +1,10 @@
+# Code to generate 9 " " in board array
+# board = []
+# 9.times do
+#   board.push(" ")
+# end
+
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
