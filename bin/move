@@ -8,4 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
 
-player_move = gets.
+player_move = gets.to_i
+
+# Executes #move
+# move(player_move)
